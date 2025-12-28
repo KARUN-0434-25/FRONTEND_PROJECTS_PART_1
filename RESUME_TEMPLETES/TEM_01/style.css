@@ -1,3 +1,6 @@
 body{
     background-image: linear-gradient(to left,black,gray,white);
 }
+#name{
+    text-align: center;
+}
