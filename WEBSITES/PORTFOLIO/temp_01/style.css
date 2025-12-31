@@ -1,0 +1,54 @@
+body{
+    background-image: linear-gradient(to right,#051e22f3,#5a944dbd),url(https://i.pinimg.com/736x/1c/53/5e/1c535ece9f13e52b19c2a9bc27374e63.jpg);
+}
+#upper-menus{
+    display: flex;
+    gap: 2vh;
+    width: 85vh;
+}
+#upper-menus a{
+    color: black;
+    border: none;
+    text-decoration: none;
+    font-size: 4vh;
+    font-weight: 550;
+    text-align: right;
+    margin-left: 2vh;
+}
+a {
+  text-decoration: none;
+  position: relative;
+  color:black;
+  font-weight: 600;
+  justify-content: space-between;
+  font-size: 5vh;
+  margin-right: 5vh;
+}
+a::before,
+a::after {
+  content: "";
+  position: absolute;
+  display: block;
+  border: 0 solid transparent;
+  width: 0%;
+  height: 0%;
+  transition: all 0.5s ease;
+}
+a::after {
+  top: 0;
+  left: 0;
+  border-top: 2px solid transparent;
+  border-left: 2px solid transparent;
+}
+a::before {
+  right: 0;
+  bottom: 0;
+  border-bottom: 2px solid transparent;
+  border-right: 2px solid transparent;
+}
+a:hover::before,
+a:hover::after {
+  width: 100%;
+  height: 100%;
+  border-color: #A6A6A6;
+}

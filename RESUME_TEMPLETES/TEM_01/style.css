@@ -1,6 +1,11 @@
 body{
-    background-image: linear-gradient(to left,black,gray,white);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(to left,#031716,#032F30,#0A7075,#0C969C,#6BA3BE,#274D60);
 }
 #name{
+    text-align: center;
+}
+
+#section-1{
     text-align: center;
 }
